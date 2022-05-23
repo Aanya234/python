@@ -1,0 +1,13 @@
+x = int (input('Enter value of x: '))
+y = int (input('Enter value of y: '))
+z = int (input('enter value of Z '))
+
+# create a temporary variable and swap the values
+if(x > y) and ( x> z ) :
+    print('X is the biggest number ')
+elif(y> x ) and ( y> z ) :
+    print('y is the biggest number ')
+else :
+    print('Z is the biggest number ')
+    
+    
